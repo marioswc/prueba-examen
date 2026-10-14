@@ -1,0 +1,53 @@
+@media (max-width: 468px) {
+    nav ul {
+        display: none;
+    }
+
+    .login-container {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        margin-bottom: 50px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: left;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+    .down-btns {
+        justify-content: center;
+        font-size: 14px;
+        gap: 5px;
+    }
+
+    .ptb-container {
+        margin: 15px;
+    }
+
+    .footer-top {
+        display: none;
+    }
+
+    .footer-bottom {
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+}
